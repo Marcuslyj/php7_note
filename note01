@@ -1,0 +1,47 @@
+chapter 1
+php7新特性
+1.增加对返回类型声明的支持；
+2.null合并运算：  $a = $_GET['a'] ?? 1;
+3.组合比较符：$a<=>$b;
+4.通过define()定义常量数组;
+5.匿名类 ;
+
+开发工具推荐：phpDesigner
+
+
+chapter 2 php7服务器环境配置
+
+
+chapter 3 基本语法
+3.1 标识符 默认：<? php   ?> 
+3.2 常量 
+通过define()命令：define("name",value); 
+常量名用大写字母表示； 
+不同于变量，常量的值只能设定一次；    
+          声明后具有全局性，在函数内外都可访问；    
+          只能存布尔值、整型、浮点型、字符串；    
+3.3 内置常量 
+    常见：_FILE_,_LINE_,PHP_VERSION,PHP_OS,TRUE,FALSE,E_ERROR,E_WARNING,E_PARSE,   
+          E_NOTICE,_DIR_,_FUNCTION_,_CLASS_             
+3.4 变量(弱类型)
+    一般以"$"为前缀；
+    不需要显式声明变量；
+    两种赋值：传值（$b = $a）、引用（$b = &$a）;
+    
+    可变变量与不可变变量的引用：
+    $value0 = "guest";
+    $$value0 = "customer";
+    echo $guest;
+    
+    变量作用域：
+    内置超全局变量；
+    常数；
+    全局变量；
+    在函数中声明为全局变量就是同名的全局变量；
+    在函数中创建和声明为静态变量，在函数外不能访问，但值保留；
+    
+    
+ 
+
+
+

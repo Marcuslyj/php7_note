@@ -70,7 +70,42 @@ $a&$b  //4,  100
 $a|$b  //7,  111
 $a^$b  //3,  011
 
+chapter 4 php的语言结构
+4.1 内置函数
+          rand();
+4.2 自定义函数
+          function
+    引用传递
+     function totalfee(&$fee,$serviceprice){}
+    对函数的引用
+          function &func1(){
+          }
+4.3 包含文件 
+    加载库文件：include()：脚本读到时包含 或 require()：脚本执行前读入它包含的文件；
+    读取失败，include：产生警告，require：产生致命错误；
+4.4 流程控制
+          if;
+          switch;
+          for;
+          while,do while;
+          foreach:
+                    不包含键值：
+                              foreach( 数组 as 数组元素值){}
+                    包含键值：
+                              foreach( 数组 as 键值 => 数组元素值){}
 
+    
+5. endif, endwhile,endfor,endforeach,endswitch
+    
+          
+          
+          
+          
+          
+          
+          
+          
+          
     
     
     
